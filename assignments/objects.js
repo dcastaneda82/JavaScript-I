@@ -110,7 +110,7 @@ const parent = {
     grandchild: {
       name: "Sam",
       age: 30,
-      greeting: function(){
+      greeting: function() {
         console.log(`Hello, my name is ${this.name}`);
       }
     }
